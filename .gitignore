@@ -1,0 +1,17 @@
+# Data files (dataset is downloaded from Kaggle; regenerate clean data with the script)
+data/raw/*.csv
+data/clean/*.csv
+
+# Logs
+reports/*.log
+*.bad
+*.dsc
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Power BI temp files
+*.pbix.bak
+~$*
